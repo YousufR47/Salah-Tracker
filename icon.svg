@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="110" fill="#0d0d0f"/>
+
+  <!-- Left minaret -->
+  <rect x="103" y="222" width="28" height="181" rx="7" fill="#7c5cbf"/>
+  <path d="M 103,222 L 117,190 L 131,222 Z" fill="#9b7fd4"/>
+  <circle cx="117" cy="187" r="5.5" fill="#c4a8f0"/>
+
+  <!-- Right minaret -->
+  <rect x="381" y="222" width="28" height="181" rx="7" fill="#7c5cbf"/>
+  <path d="M 381,222 L 395,190 L 409,222 Z" fill="#9b7fd4"/>
+  <circle cx="395" cy="187" r="5.5" fill="#c4a8f0"/>
+
+  <!-- Main dome (onion shape) -->
+  <path d="M 144,322 C 144,232 202,154 256,144 C 310,154 368,232 368,322 Z" fill="#7c5cbf"/>
+
+  <!-- Dome sheen -->
+  <path d="M 178,310 C 172,252 198,186 232,163 C 215,188 210,254 214,310 Z" fill="#9b7fd4" opacity="0.22"/>
+
+  <!-- Building body -->
+  <rect x="132" y="320" width="248" height="83" fill="#7c5cbf"/>
+
+  <!-- Side window arches -->
+  <path d="M 158,337 Q 172,322 186,337" fill="none" stroke="#c4a8f0" stroke-width="3.5" opacity="0.55"/>
+  <path d="M 326,337 Q 340,322 354,337" fill="none" stroke="#c4a8f0" stroke-width="3.5" opacity="0.55"/>
+
+  <!-- Door arch -->
+  <path d="M 232,403 L 232,362 Q 256,338 280,362 L 280,403 Z" fill="#0d0d0f" opacity="0.55"/>
+
+  <!-- Ground line -->
+  <rect x="90" y="400" width="332" height="8" rx="4" fill="#4a3580" opacity="0.7"/>
+
+  <!-- Crescent moon -->
+  <circle cx="256" cy="108" r="37" fill="#f0c040"/>
+  <circle cx="275" cy="97" r="29" fill="#0d0d0f"/>
+
+  <!-- Star -->
+  <polygon points="308,75 311.5,85 321.3,85.7 313.7,92 316.2,101.5 308,96 299.8,101.5 302.3,92 294.7,85.7 304.5,85" fill="#f0c040"/>
+</svg>
